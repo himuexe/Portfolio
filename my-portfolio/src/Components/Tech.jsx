@@ -2,7 +2,11 @@ import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
 import { motion } from "framer-motion";
+
 const iconVariants = (duration) => ({
   intial: { y: -10 },
   animate: {
@@ -17,7 +21,7 @@ const iconVariants = (duration) => ({
 });
 const Tech = () => {
   return (
-    <div className="border-b border-neutral-800 pb-24">
+    <div className="border-b border-neutral-800 pb-24 ">
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
@@ -63,6 +67,30 @@ const Tech = () => {
           className="rounded-2xl border-4  border-neutral-800 p-4"
         >
           <FaNodeJs className="text-7xl  text-green-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(1.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4  border-neutral-800 p-4"
+        >
+          <SiTailwindcss className="text-7xl  text-cyan-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(1.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4  border-neutral-800 p-4"
+        >
+          <SiTypescript className="text-7xl  text-blue-600" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(1.5)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4  border-neutral-800 p-4"
+        >
+          <FaJava className="text-7xl  text-white" />
         </motion.div>
       </motion.div>
     </div>

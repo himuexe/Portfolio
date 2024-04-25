@@ -24,8 +24,8 @@ const Project = () => {
               <img
                 src={project.image}
                 alt={project.title}
-                width={150}
-                height={150}
+                width={250}
+                height={350}
                 className="mb-6 rounded"
               />
             </motion.div>
@@ -40,7 +40,7 @@ const Project = () => {
               {project.technologies.map((tech, index) => (
                 <span
                   key={index}
-                  className="mr-2 mt-4 rounded  bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800"
+                  className="mr-2 mt-4 rounded  bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800 grid-cols-4"
                 >
                   {tech}
                 </span>

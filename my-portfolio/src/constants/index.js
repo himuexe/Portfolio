@@ -19,32 +19,32 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Vacays.com",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB","Express.js"],
+      "A fully functional Hotel Booking website with features like sorting, searching, and user authentication.",
+    technologies: ["Tailwind", "Typescript", "Vite", "Node.js", "MongoDB","Express.js","Shadcn-ui"],
   },
   {
-    title: "Food Delivery App",
+    title: "Dhabha.com",
     image: project2,
     description:
-      "An application for ordering food online",
-    technologies: ["HTML", "CSS", "React", "MongoDB"],
+      "A Fullstack application for managing restaurants, sorting , searching and user authentication",
+    technologies: ["Tailwind", "Typescript", "Vite", "Node.js", "MongoDB","Express.js","Auth0"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["Framer", "Tailwind", "React", "Vite"],
   },
   {
     title: "University Management",
     image: project4,
     description:
       "A platform for managing the database for a University",
-    technologies: ["HTML", "CSS", "React.js", "Express", "mySQL"],
+    technologies: ["Tailwind", "Typescript", "Vite", "Node.js", "MongoDB","Express.js","Shadcn-ui"],
   },
 ];
 
