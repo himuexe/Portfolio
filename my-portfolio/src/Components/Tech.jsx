@@ -69,7 +69,7 @@ const Tech = () => {
           <FaNodeJs className="text-7xl  text-green-500" />
         </motion.div>
         <motion.div
-          variants={iconVariants(1.5)}
+          variants={iconVariants(1)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4  border-neutral-800 p-4"
@@ -77,7 +77,7 @@ const Tech = () => {
           <SiTailwindcss className="text-7xl  text-cyan-500" />
         </motion.div>
         <motion.div
-          variants={iconVariants(1.5)}
+          variants={iconVariants(1.3)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4  border-neutral-800 p-4"
@@ -85,7 +85,7 @@ const Tech = () => {
           <SiTypescript className="text-7xl  text-blue-600" />
         </motion.div>
         <motion.div
-          variants={iconVariants(1.5)}
+          variants={iconVariants(3)}
           initial="initial"
           animate="animate"
           className="rounded-2xl border-4  border-neutral-800 p-4"

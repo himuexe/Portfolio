@@ -13,7 +13,7 @@ export const EXPERIENCES = [
     role: "Lead -WEB/APP Dev",
     company: " ACM SIGKDD",
     description: `Lead in the ACM SIGKDD developing and maintaining web applications using JavaScript, React.js, and Tailwind CSS.`,
-    technologies: ["Javascript", "React.js", "Tailwind CSS", "FireBase"],
+    technologies: ["Javascript", "React.js", "Tailwind CSS", "Typecript"],
   } 
 ];
 
@@ -23,7 +23,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional Hotel Booking website with features like sorting, searching, and user authentication.",
-    technologies: ["Tailwind", "Typescript", "Vite", "Node.js", "MongoDB","Express.js","Shadcn-ui"],
+    technologies: ["Tailwind", "Typescript", "Vite", "Node.js", "MongoDB","Express.js"],
   },
   {
     title: "Dhabha.com",
